@@ -43,6 +43,22 @@ const nextConfig: NextConfig = {
                 hostname: 'drive.google.com',
                 pathname: '/uc',
             },
+            {
+                protocol: 'https',
+                hostname: 'blossom.primal.net',
+            },
+            {
+                protocol: 'https',
+                hostname: 'blossom.oxtr.dev',
+            },
+            {
+                protocol: 'https',
+                hostname: 'cdn.satellite.earth',
+            },
+            {
+                protocol: 'https',
+                hostname: 'blossom.nostr.hu',
+            },
         ],
     },
     async headers() {
